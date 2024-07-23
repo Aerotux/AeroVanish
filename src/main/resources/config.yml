@@ -1,0 +1,33 @@
+#Config - By Aerotux
+
+#If this is enabled, it will send an actionbar to the player while vanished!
+#Default: true
+vanished-actionbar: true
+vanish-message: "&aYou have vanished!"
+vanished-actionbar-message: "&fYou are currently &cVANISHED"
+
+unvanished-message: "&aYou have unvanished!"
+
+#If this is enabled, a customizable suffix will show
+#after the players username!
+#Default: true
+vanished-nametag-suffix: true
+
+vanished-suffix: " &5[V]"
+
+#Vanish/Unvanish leave-join messages
+#If this is enabled, it will send a join message when unvanished, and leave message when vanished
+#They are fully customizable!
+#Default: true
+vanish-unvanish-leave-join-messages: true
+
+#Placeholder
+#Player == {player}
+vanish-leave-message: "&e{player} has left the game!"
+unvanished-join-message: "&e{player} has joined the game!"
+
+#This allows people with a bypass permission
+#to be able to see vanished players
+#Default: true
+bypass-permission: true
+# Bypass Permission == aerovanish.bypass

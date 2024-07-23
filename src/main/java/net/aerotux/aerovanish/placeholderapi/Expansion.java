@@ -1,8 +1,8 @@
-package net.zoplax.zoplax.placeholderapi;
+package net.aerotux.aerovanish.placeholderapi;
 
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
-import net.zoplax.zoplax.Zoplax;
-import net.zoplax.zoplax.command.vanish.util.VanishUtil;
+import net.aerotux.aerovanish.AeroVanish;
+import net.aerotux.aerovanish.command.util.VanishUtil;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
@@ -12,17 +12,17 @@ public class Expansion extends PlaceholderExpansion {
 
     @Override
     public @NotNull String getIdentifier() {
-        return "Zoplax";
+        return "AeroVanish";
     }
 
     @Override
     public @NotNull String getAuthor() {
-        return String.join(", ", Bukkit.getPluginManager().getPlugin(Zoplax.getInstance().getName()).getDescription().getAuthors());
+        return String.join(", ", Bukkit.getPluginManager().getPlugin(AeroVanish.getInstance().getName()).getDescription().getAuthors());
     }
 
     @Override
     public @NotNull String getVersion() {
-        return Bukkit.getPluginManager().getPlugin(Zoplax.getInstance().getName()).getDescription().getVersion();
+        return Bukkit.getPluginManager().getPlugin(AeroVanish.getInstance().getName()).getDescription().getVersion();
     }
 
     @Override
