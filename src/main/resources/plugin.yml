@@ -1,0 +1,6 @@
+name: AeroVanish
+version: '${project.version}'
+main: net.aerotux.aerovanish.AeroVanish
+api-version: '1.20'
+authors: [Aerotux]
+description: A remake of Hypixels Vanish System
